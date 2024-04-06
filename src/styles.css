@@ -1,0 +1,23 @@
+table {
+  border: 1px solid black;
+}
+
+th,
+td {
+  width: 120px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+input,
+button {
+  width: 100px;
+}
+
+span,
+p {
+  width: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
